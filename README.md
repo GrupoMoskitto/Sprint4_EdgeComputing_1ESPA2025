@@ -12,7 +12,23 @@
 ## Objetivo
 O projeto é composto por um brinquedo interativo impresso em 3D no formato de gatinho, equipado com um ESP32-C3 SuperMini e um display OLED. O brinquedo é entregue à criança junto com o responsável e exibe a senha de atendimento da criança, informando quando chegar o atendimento, tudo de forma lúdica e acolhedora. Na altura atual do projeto, serve como modelo de estilo e comportamento para o gatinho virtual, como se fosse um _digital twin_.
 
-## 🗺️ Diagrama da Arquitetura
+## Componentes Utilizados:
+- ESP32-C3 SuperMini
+- Display OLED - SSD1306 - Resolução de 128x64 pixels
+
+## Tecnologias Utilizadas:
+- FIWARE
+  - MQTT (IoT Agent e Broker)
+  - Orion Context Broker
+  - MongoDB
+  - STH-Comet
+- Microsoft Azure
+  - Máquina Virtual rodando o FIWARE (Debian/Linux)
+  - Interface de Rede (IP Público)
+- Linguagem de programação C++
+- Docker (Containers FIWARE)
+
+## Diagrama da Arquitetura
 ![Diagrama da Arquitetura](arquitetura_sprint4.png)
 
 ## Arquitetura da Solução
@@ -44,7 +60,7 @@ Painel web / aplicativo de gestão mobile que envia atualizações para o Contex
 
 Comunicação via HTTP na porta 1026 com cabeçalhos Fiware-Service e Fiware-ServicePath.
 
-## 🧪 Link para a Simulação no Wokwi
+## Link para a Simulação no Wokwi
 <!-- ![Simulação](wokwi-simulação.png) -->
 _2do_
 <!-- Wokwi: https://wokwi.com/projects/428687533684130817 -->
