@@ -60,17 +60,13 @@ Painel web / aplicativo de gestão mobile que envia atualizações para o Contex
 
 Comunicação via HTTP na porta 1026 com cabeçalhos Fiware-Service e Fiware-ServicePath.
 
+## Montagem do Projeto:
+![Montagem](montagem_sprint4.png)
+
 ## Link para a Simulação no Wokwi
-<!-- ![Simulação](wokwi-simulação.png) -->
-_2do_
-<!-- Wokwi: https://wokwi.com/projects/428687533684130817 -->
+### Nota importante sobre a Simulação do Wokwi:
+- A funcionalidade dos olhos dinâmicos no display requer uma biblioteca que não está no Wokwi ([RoboEyes](https://github.com/FluxGarage/RoboEyes)) portanto as animações dos olhos foram removidas da simulação do Wokwi.
+- Demonstramos a funcionalidade no nosso [vídeo do YouTube](https://www.youtube.com/watch?v=teB0mU251rQ).
+Link da Simulação: https://wokwi.com/projects/433667751877696513
 
-<!-- ## :smile_cat: Explicação da Arquitetura
-![Youtube](video-simulacao-youtube.png)
-
-Youtube: https://youtu.be/tfh6tKAZBYQ
-
-## :smile_cat: Video do Pitch
-![Youtube](Gatinho-Sabará-youtube.png)
-
-Youtube: https://www.youtube.com/watch?v=nGFiCgAD6WQ -->
+## [Vídeo no YouTube](https://www.youtube.com/watch?v=teB0mU251rQ)
