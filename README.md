@@ -67,6 +67,7 @@ Comunicação via HTTP na porta 1026 com cabeçalhos Fiware-Service e Fiware-Ser
 ### Nota importante sobre a Simulação do Wokwi:
 - A funcionalidade dos olhos dinâmicos no display requer uma biblioteca que não está no Wokwi ([RoboEyes](https://github.com/FluxGarage/RoboEyes)) portanto as animações dos olhos foram removidas da simulação do Wokwi.
 - Demonstramos a funcionalidade no nosso [vídeo do YouTube](https://www.youtube.com/watch?v=teB0mU251rQ).
+
 Link da Simulação: https://wokwi.com/projects/433667751877696513
 
 ## [Vídeo no YouTube](https://www.youtube.com/watch?v=teB0mU251rQ)
